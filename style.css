@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after {
+
+  box-sizing: border-box;
+  font-family: var(--font-ana);
+
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("fonts/plus-jakarta-sans-v12-latin_latin-ext-regular.woff2") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-ana: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #f78529;
+}
+
+ul:has(a) {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+}
+
+header {
+  display: flex;
+  gap: 600px;
+  align-items: center;
+  padding: 50px 100px 10px 100px;
+}
+header > div {
+  padding: 50;
+}
+
+main  {
+  padding: 0px 100px 10px 100px;
+  
+}
+
+.new {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: black;
+  color: white;
+}
+.new > h2 {
+  color: #f78529;
+}
+
+.new > p {
+  color: rgba(128, 128, 212, 0.904);
+}
+
+.hero {
+  padding-right: 30px;
+  display: flex;
+  gap: 30px
+
+}
+
+.popular {
+  display: flex;
+}
+
+
+
+.hero
+.hero-text {
+  display:flex ;
+}
+
+.hero-text > h2 {
+  font-size: 40px ;
+}
